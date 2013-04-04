@@ -1,6 +1,5 @@
 #quick9
-This project is aimed at quickly launching websites on Cloud9 (http://c9.io),
-but it works well in any Node environment - Linux, MacOS, and even Windows!
+This project is aimed at quickly launching websites on Cloud9 (http://c9.io), but it works well in any Node environment - Linux, MacOS, and even Windows!
 
 ##Installation
 
@@ -32,15 +31,15 @@ You may also start quick9 by opening server.js and clicking the "Run" or "Debug"
 ##Other environments
 
 There is a reconfigured Procfile for deployment to Heroku and other similar services.
-Check out this link to learn more: `https://devcenter.heroku.com/articles/nodejs
+Check out this link to learn more: https://devcenter.heroku.com/articles/nodejs
 
 Note:It's also possible to push directly form Cloud9 to Heroku
 However, since installing the heroku toolbelt on Cloud9 is not supported,
 you'll temporarily need access to a system that supports it.
 
 1. Get your public SSH key from your Cloud9 Account page.
-2. Install the heroku toolbelt on a system that supports it from here: `https://toolbelt.heroku.com/`
-3. Add the key to your heroku app using the method described here:`https://devcenter.heroku.com/articles/keys#adding-keys-to-heroku`
+2. Install the heroku toolbelt on a system that supports it from here: https://toolbelt.heroku.com/
+3. Add the key to your heroku app using the method described here:https://devcenter.heroku.com/articles/keys#adding-keys-to-heroku
 4. In the Cloud9 Terminal, type `git remote add git@heroku.com:{{PROJECTNAME}}.git heroku`
 5. You can push your project directly from Cloud9 to Heroku with `git push heroku master`
 
