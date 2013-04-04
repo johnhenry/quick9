@@ -5,13 +5,8 @@ This project is aimed at quickly launching websites on Cloud9 (http://c9.io), bu
 
 ###Cloud9
 
-<<<<<<< HEAD
-0. Sign up for an account at c9.io and create a new work space
-1. Delete the existing README.md to ensure that your starting directory is empty.
-=======
 0. Sign up for an account at c9.io and create a new custom work space
 1. Delete any existing files to ensure that you have a clean working directory
->>>>>>> Added directive to delete existing files in Cloud9 during installation.
 2. Open the terminal and enter `git clone git@github.com:johnhenry/quick9.git .` to install quick9 (Note the "." at the end)
 3. Enter `npm install` to install quick9's dependencies
 4. Populate the "public" directory with the content of your website
