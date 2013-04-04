@@ -1,0 +1,1 @@
+var connect = require('connect');connect().use(connect.static(process.argv[3] || "public")).listen(process.argv[2] || process.env.PORT || 8080);
