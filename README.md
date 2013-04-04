@@ -15,7 +15,7 @@ This project is aimed at quickly launching websites on Cloud9 (http://c9.io), bu
 
 0. Install git, node, and npm on your local system
 1. Navigate to a folder where you want to install your project
-2. Open the terminal and enter `git clone git@github.com:johnhenry/quick9.git .` to install quick9 (Note the "." at the end)
+2. Open the terminal and enter `git clone https://github.com/johnhenry/quick9.git .` to install quick9 (Note the "." at the end)
 3. Enter `npm install` to install quick9's dependencies
 3. Populate the "public" directory with the content of your website
 
