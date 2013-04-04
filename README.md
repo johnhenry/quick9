@@ -39,7 +39,7 @@ However, since installing the heroku toolbelt on Cloud9 is not supported,
 you'll temporarily need access to a system that supports it.
 
 1. Get your public SSH key from your Cloud9 Account page.
-2. Install the heroku toolbelt on a system that supports it from here: https://toolbelt.heroku.com/
+2. Install the heroku toolbelt on a system that supports it from here: https://toolbelt.heroku.com/ (You may have to save the key as a file and save it in your .ssh directory)
 3. Add the key to your heroku app using the method described here:https://devcenter.heroku.com/articles/keys#adding-keys-to-heroku
 4. In the Cloud9 Terminal, type `git remote add heroku git@heroku.com:{{PROJECTNAME}}.git`
 5. You can push your project directly from Cloud9 to Heroku with `git push heroku master`
