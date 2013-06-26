@@ -1,5 +1,6 @@
 #quick9
 This project is aimed at quickly launching websites on Cloud9 (http://c9.io), but it works well in any Node environment - Linux, MacOS, and even Windows!
+This project also makes it easy to deploy to various other platforms (PaaS) such as Heroku and OpenShift.
 
 ##Installation
 
@@ -31,7 +32,9 @@ You may also start quick9 by opening server.js and clicking the "Run" or "Debug"
 
 ##Other environments
 
-There is a reconfigured Procfile for deployment to Heroku and other similar services.
+The server is pre-configured to use IP addresses and ports for OpenShift as well as Cloud9IDE.
+
+There is also a pre-configured Procfile for deployment to Heroku and other similar services.
 Check out this link to learn more: https://devcenter.heroku.com/articles/nodejs
 
 Note:It's also possible to push directly form Cloud9 to Heroku
