@@ -1,9 +1,10 @@
 {
     "name":"quick9",
-    "version":"0.0.1",
+    "version":"1.0.1",
     "private":"true",
     "dependencies":{
-            "connect":"2.7.x"
+            "connect":"3.7.x",
+            "serve-static" : "*"
         },
     "engines": {
         "node": "0.10.x",
