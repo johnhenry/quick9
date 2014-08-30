@@ -1,5 +1,5 @@
 var port = process.env.PORT || 80;
-var connect = var connect = require('connect');
+var connect = require('connect');
 connect()
-.use(require("serve-static")("."))
+.use(require("serve-static")("public"))
 .listen(port || 8080 );
