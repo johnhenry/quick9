@@ -32,14 +32,24 @@ You may also start quick9 by opening server.js and clicking the "Run" or "Debug"
 
 ##Other environments
 
-The server is pre-configured to use IP addresses and ports for OpenShift as well as Cloud9IDE.
+###OpenShift
+
+The server is pre-configured to use IP addresses and ports for OpenShift.
+
+###Heroku
 
 There is also a pre-configured Procfile for deployment to Heroku and other similar services.
 Check out this link to learn more: https://devcenter.heroku.com/articles/nodejs
 
+Or try the Heroku button:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/johnhenry/quick9)
+
+
 Note:It's also possible to push directly form Cloud9 to Heroku
 However, since installing the heroku toolbelt on Cloud9 is not supported,
 you'll temporarily need access to a system that supports it.
+
 
 1. Get your public SSH key from your Cloud9 Account page.
 2. Install the heroku toolbelt on a system that supports it from here: https://toolbelt.heroku.com/ (You may have to save the key as a file and save it in your .ssh directory)
@@ -51,15 +61,15 @@ you'll temporarily need access to a system that supports it.
 
 Q:Why would I use this locally?
 
-A:Some broswsers, such as chrome, restrict the type of request that it makes to local files. 
+A:Some broswsers, such as chrome, restrict the type of request that it makes to local files.
     While this is good for security purposes, it makes developing local sites a bit more difficult.
     One way around this is to host your site locally using quick9.
-    
+
 Q:Do I have to restart the server every time I make a change to my files?
 
 A:No. Quick9 monitors the files within the "public" directory.
     You may, however, have to refresh your browser and/or clear its cache.
-    
+
 Q:Can I use HTML,CSS,and Client Side Javascript?
 
 A:Yes. Quick9 fully supports the use of all client side technologies, including:
@@ -75,7 +85,7 @@ Q:Can I use Server Side Javascript, PHP, Ruby, Python, etc.
 A:No. Quick9 itself is a simple server that doesnt support outside server technologies.
     However, Node is easily extensible, and could easly be part of your own project!
     Check out the documentation `http://nodejs.org/api/`
-    
+
 Q:Isn't quick9 just a wrapper for connect?
 
 A:Yes... mostly, but quick9 focuses on rapid deployment of a site for a very common usage scenario.
