@@ -32,10 +32,6 @@ You may also start quick9 by opening server.js and clicking the "Run" or "Debug"
 
 ##Other environments
 
-###OpenShift
-
-The server is pre-configured to use IP addresses and ports for OpenShift.
-
 ###Heroku
 
 There is also a pre-configured Procfile for deployment to Heroku and other similar services.
